@@ -1,0 +1,15 @@
+name: Suggest a resource
+description: Suggest a tool, guide or prompt for the list
+labels: ["good first issue", "new resource"]
+body:
+  - type: input
+    id: name
+    attributes: {label: Name}
+    validations: {required: true}
+  - type: input
+    id: link
+    attributes: {label: Link}
+    validations: {required: true}
+  - type: textarea
+    id: why
+    attributes: {label: Why is it useful for non-coders?}

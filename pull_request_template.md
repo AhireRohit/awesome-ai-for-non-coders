@@ -1,0 +1,3 @@
+- [ ] One resource per PR
+- [ ] Format: `- [Name](link) - Description.`
+- [ ] Not a duplicate, no referral link
